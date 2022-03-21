@@ -1,0 +1,30 @@
+body{
+    margin: 0; padding: 0;
+    font-family: Helvetica;
+  }
+  
+  .heading h1{
+    height: 20px;
+  }
+  
+  .heading{
+    text-align: center;
+    height: 80px;
+    color: #ffffff;
+  }
+  
+  #container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 98vw;
+    min-height: 100vh;
+    background: #463f3a;
+  }
+  
+  .tooltip{
+    filter:drop-shadow(10px 10px 4px #00000080);
+  }
+  
